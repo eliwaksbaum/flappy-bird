@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2085690650273197112}
   - component: {fileID: 2085690650273197113}
   - component: {fileID: -5066766147927265120}
+  - component: {fileID: -8017264926730496843}
   m_Layer: 0
   m_Name: CountDownText
   m_TagString: Untagged
@@ -110,6 +111,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -220,3 +222,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countClip: {fileID: 8300000, guid: f807e779b6c444349b6678fdee3d2701, type: 3}
   playClip: {fileID: 8300000, guid: 1692c8a0f0f424644b39e7cc27ce73fb, type: 3}
+--- !u!114 &-8017264926730496843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085690650273197115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a391ec025750ec4489e3bf63d913c790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

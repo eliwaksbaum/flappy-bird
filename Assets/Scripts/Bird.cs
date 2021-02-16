@@ -37,10 +37,6 @@ public class Bird : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         collider = GetComponent<Collider2D>();
-    }
-
-    void Start()
-    {
         jumpSound = AddAudio(jumpClip, .4f);
         hitSound1 = AddAudio(hitCliip1, .6f);
         hitSound2 = AddAudio(hitClip2, .6f);
