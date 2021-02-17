@@ -2,21 +2,23 @@ using UnityEngine;
 
 public class MuteAllAudio : MonoBehaviour
 {
+    public BoolValue muted;
+
     AudioSource[] players;
-
-    void OnEnable()
-    {
-        Mute.MuteEvent += MuteAll;
-    }
-
-    void OnDisable()
-    {
-        Mute.MuteEvent -= MuteAll;
-    }
+    bool status;
 
     void Start()
     {
         players = GetComponents<AudioSource>();
+    }
+
+    void Update()
+    {
+        if (status != muted.Value)
+        {
+            MuteAll(muted.Value);
+            status = muted.Value;
+        }
     }
 
     void MuteAll(bool on)

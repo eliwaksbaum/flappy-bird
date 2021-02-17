@@ -3,25 +3,24 @@ using UnityEngine;
 public class Music : MonoBehaviour
 {
     public Sprite[] sprites;
+    public BoolValue muted;
     
     AudioSource music;
     SpriteRenderer sr;
     int swap = 1;
 
-    void OnEnable()
-    {
-        Mute.MuteEvent += AllMute;
-    }
-
-    void OnDisable()
-    {
-        Mute.MuteEvent -= AllMute;
-    }
-
     void Start()
     {
         music = GetComponent<AudioSource>();
         sr = GetComponent<SpriteRenderer>();
+    }
+
+    void Update()
+    {
+        if (muted.Value && !music.mute)
+        {
+            MuteMusic();
+        }
     }
 
     void MuteMusic()
@@ -34,13 +33,5 @@ public class Music : MonoBehaviour
     void OnMouseDown()
     {
         MuteMusic();
-    }
-
-    void AllMute(bool on)
-    {
-        if (on && !music.mute)
-        {
-            MuteMusic();
-        }
     }
 }

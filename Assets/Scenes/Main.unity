@@ -216,6 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f847a767752c2fc41a31a07c4270c803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  muted: {fileID: 11400000, guid: 19f6409acb350e14083a25721d4ea7e7, type: 2}
   sprites:
   - {fileID: 21300000, guid: 165effbd0e594ee41adf91c53f4fddf2, type: 3}
   - {fileID: 21300000, guid: 34738aa497eab2f41a396310fdce8f8e, type: 3}
@@ -761,7 +762,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.76, y: -0.409}
+  m_AnchoredPosition: {x: 5.93, y: -0.409}
   m_SizeDelta: {x: 9.458485, y: 0.4234103}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1383841243
@@ -1155,6 +1156,7 @@ MonoBehaviour:
   sprites:
   - {fileID: 21300000, guid: e8d182c57fe973246b270acf04a0caad, type: 3}
   - {fileID: 21300000, guid: 260ce5d8335a7174fb4d87abab350255, type: 3}
+  muted: {fileID: 11400000, guid: 19f6409acb350e14083a25721d4ea7e7, type: 2}
 --- !u!61 &1834956013
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1344,3 +1346,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a391ec025750ec4489e3bf63d913c790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  muted: {fileID: 11400000, guid: 19f6409acb350e14083a25721d4ea7e7, type: 2}
