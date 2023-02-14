@@ -1,5 +1,5 @@
 # flappy-bird
  Flappy Bird built in Unity.
 
-[Play](https://eli.waksbaum.com/projects/flappy-bird) | [Read](https://eli.waksbaum.com/projects/flappy-bird/notes)
+[Play](https://eli.waksbaum.com/flappy-bird.html) | [Read](https://eli.waksbaum.com/blog/flappy-notes.html)
 
